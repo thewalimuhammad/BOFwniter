@@ -1,0 +1,577 @@
+*{
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    margin: 0%;
+}
+/* Header */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+input[type="text"]{
+    border: none;
+    font-size: 1.2vw;
+    max-width: 130px;
+    border-right: 1px solid black;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+input[type="text"]::placeholder{
+    color: black;
+}
+.buttons li{
+    display: inline-block;
+    margin: 20px;
+}
+.search li{
+    display: inline-block;
+}
+nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    margin: 20px;
+}
+.search{
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 10px;
+    width: 300px;
+}
+.search ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+}
+
+/* Section  */
+
+.topSec{
+    height: auto;
+    background-image: url("images/sec1bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+.topSec .top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.topleft{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topleft .topleftcontent{
+    width: 80%;
+}
+
+.topright{
+    width: 50%;
+}
+
+.topleft h1
+{
+    font-size: 5vw;
+}
+
+.topleft p
+{
+    font-size: 2vw;
+}
+
+.topright .imgbox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.topright .imgbox img{
+    width: 70%;
+}
+
+.topright .dots
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.topright .dots .dotContent{
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+.topleft .secButtons{
+    display: flex;
+    align-items: center;
+}
+
+.secButtons .secved{
+    margin-left: 30px;
+}
+
+.secButtons img{
+    width: 80%;
+}
+
+.topSec .bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+}
+
+.topSec .bottom .bottomContents{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.topSec .bottom .box
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    position: relative;
+}
+
+.topSec .bottom .bimg{
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.topSec .bottom .bcontent{
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topSec .bottom h1
+{
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    width: 180px;
+    margin-top: 50px;
+}
+
+
+/* Section 2 */
+
+.sec2{
+    margin-top: 12%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+.sec2content{
+    display: flex;
+}
+.sec2 h1{
+    font-size: 4vw;
+}
+.sec2left{
+    width: 20%;
+}
+.sec2left ul{
+    margin: 0px;
+    padding: 0px;
+}
+.sec2left li{
+    list-style: none;
+    margin-top: 5%;
+    font-size: larger;
+    color: gray;
+}
+.sec2right{
+    width: 80%;
+}
+
+.lidenim{
+    display: flex;
+    align-items: center;
+    margin-top: 0% !important;
+    margin-bottom: -5%;
+}
+
+.lidenim img
+{
+    height: 25px;
+    margin-right: 5px;
+}
+
+.lidenim p{
+    color: black;
+}
+
+.sec2rightcontent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2rightcontent img{
+    width: 100%;
+}
+
+.sec2rightcontent .box{
+    width: 28%;
+}
+
+.sec2rightcontent .sec2lbox{
+    width: 24.3% !important;
+}
+
+.sec4grid .boxbottom, 
+.sec2right .boxbottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec4grid .boxbottom h2,
+.sec2right .boxbottom h2{
+    font-size: larger;
+}
+
+.sec4grid .boxbottom .price,
+.sec2right .boxbottom .price
+{
+    color: gray;
+}
+
+.sec4grid .boxbottom .boxbright,
+.sec2right .boxbottom .boxbright{
+    margin: 6.5%;
+}
+
+/* Section 3 */
+
+.sec3{
+    background-color: #F0F2FF;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+    padding: 100px 0;
+}
+
+.sec3left{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.sec3left .imgbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3left .imgbox img
+{
+    width: 85%;
+}
+
+.sec3right{
+    width: 50%;
+}
+
+.sec3rightcontent{
+    width: 60%;
+    margin-top: -10%;
+}
+
+.sec3rightcontent h1{
+    font-size: 4vw;
+}
+
+.sec3rightcontent p{
+    font-size: 1.2vw;
+    margin-bottom: 10%;
+}
+
+/* Section 4 */
+
+.sec4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.sec4 .sec4top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.sec4 .sec4top h1{
+    font-size: 4vw;
+    margin-bottom: 0px;
+}
+
+.sec4 .sec4top p{
+    font-size: 1.5vw;
+}
+
+.sec4 .sec4grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+}
+
+.sec4 .sec4grid .boxbottom{
+    width: 100%;
+}
+
+.sec4 .sec4grid .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.sec4 .sec4grid .box img{
+    width: 100%;
+}
+
+/* Section 5 */
+
+.sec5{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+    padding: 100px 0;
+}
+
+.sec5left{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.sec5right .imgbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec5right .imgbox img
+{
+    width: 70%;
+}
+
+.sec5right{
+    width: 50%;
+}
+
+.sec5leftcontent{
+    width: 60%;
+    margin-top: -10%;
+}
+
+.sec5leftcontent h1{
+    font-size: 4vw;
+}
+
+.sec5leftcontent p{
+    font-size: 1.3vw;
+    margin-bottom: 10%;
+}
+
+.sec5subscribe{
+    position: relative;
+    width: 100%;
+}
+
+.sec5subscribe img{
+    width: 100%;
+}
+
+.sec5sub{
+    position: absolute;
+    display: flex;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.emailsub{
+     max-width: 60% !important;
+     font-size: 1.5vw !important;
+     background-color: #1A1A1A;
+     color: white;
+}
+
+.emailsub::placeholder{
+    color: white !important;
+}
+
+.sec5sub img{
+    width: 23% !important;
+}
+
+/* Section 6 */
+
+.sec6{
+    background-color: #F8F2ED;
+    padding: 100px 0;
+    margin-bottom: 10%;
+}
+
+.sec6sub{
+    width: 85%;
+}
+
+.sec6 img{
+    width: 100%;
+}
+
+.sec6grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.sec6grid .sec6sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.sec6_1img2
+{
+    margin: 15%;
+    width: 40% !important;
+}
+
+.sec6sub h1{
+    margin-top: 0%;
+    margin-bottom: 10%;
+    font-size: 2.7vw;
+    text-align: center;
+}
+
+/* Footer */
+
+footer{
+    background-color: black;
+    margin: 0%;
+    padding: 20px 0;
+}
+
+.footergrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+
+.footergrid .fsec{
+    display: flex;
+    flex-direction: column;
+    margin: 15%;
+    width: 100%;
+}
+
+.fsec1{
+    align-items: center;
+    margin-left: 0% !important;
+}
+
+.flogo{
+    margin: 10% 0;
+    width: 60%;
+}
+
+.fsec h2{
+    color: white;
+}
+
+.fsec a
+{
+    text-decoration: none;
+    color: gray;
+    margin: 10% 0%;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    width: 12vw;
+}
+
+@media(max-width: 629px) {
+nav{
+    flex-direction: column;
+}
+.search input[type="text"]{
+    font-size: 3vw !important;
+}
+.topSec .bottom .bottomContents{
+    flex-direction: column;
+    align-items: center;
+}
+.topSec .bottom .box{
+    width: 100%;
+    margin: 5%;
+}
+.topSec .bottom h1{
+    font-size: 7vw;
+}
+.topSec .bottom .bimg{
+    width: 80%;
+}
+.sec2content{
+    flex-direction: column;
+}
+.sec2left{
+    width: 100%;
+}
+.sec2left ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec2right{
+    width: 100%;
+    margin-top: 5%;
+}
+.sec4grid .boxbottom h2, .sec2right .boxbottom h2{
+    font-size: 3vw;
+}
+.sec4grid{
+    grid-template-columns: auto auto !important;
+}
+.footergrid{
+    grid-template-columns: auto;
+}
+.footergrid .fsec{
+    align-items: center;
+}
+.fsec1{
+    margin-left: 15% !important;
+}
+}
